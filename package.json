@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Api mocada para testar o ambiente que será disponibilizado para a realização do HaCkAIXA",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praser/hackaixa_veteranos.git"
+},
   "scripts": {
     "test": "jest"
   },
