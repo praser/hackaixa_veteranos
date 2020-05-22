@@ -6,13 +6,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/praser/hackaixa_veteranos.git"
-},
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "nodemon index.js"
   },
   "author": "Rubens Praser Junior e Eduador dos Santos Almeida",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pg": "^8.2.1",
